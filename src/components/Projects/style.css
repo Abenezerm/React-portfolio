@@ -1,0 +1,57 @@
+.Projects{
+
+  margin: 0 0 0 0;
+  padding-bottom: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #ce6a6b;
+}
+.Projects h1{
+  display: inline;
+  font-size: 5rem;
+  margin-left:1%;
+  color: white;
+  text-shadow: 10px 6px 5px rgb(0, 0, 0);
+
+}
+.Projects .title img{
+  box-shadow: 15px 6px 5px rgb(0, 0, 0, 0.6);
+}
+.Projects .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Projects .project-showcase{
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.Projects .project-showcase .project-card{
+  display: flex;
+  width: 97%;
+  background: rgb(20, 154, 180, 0.9);
+  box-shadow: 15px 6px 5px rgb(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.Projects .project-showcase .project-card h2{
+  font-family: 'Sacramento', cursive;
+  padding-left: 4%;
+}
+.Projects .project-showcase .project-card .description{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.Projects .project-showcase .project-card .description p{
+  font-family: 'Montserrat', sans-serif;
+}
+.Projects .project-showcase .project-card:hover{
+   box-shadow: 15px 6px 5px rgb(0, 0, 0, 0.4);
+   transform: scale(1.06, 1.06);
+ }

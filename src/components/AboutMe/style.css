@@ -1,27 +1,35 @@
 .About-me{
   width: 100%;
   display: flex;
-  margin-bottom: 20px;
+  padding-bottom: 100%;
+  background-color: #ce6a6b;
+
 }
 
-
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  margin-left:1%;
+  color: white;
+  text-shadow: 10px 6px 5px rgb(0, 0, 0);
+}
 .About-me .section-Header{
+    margin-top: 20%;
     width: 30%;
+    color: #bed3c3;
 }
 
 .About-me .section-Header .headshot{
   border-radius: 100px;
   box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.9);
-  margin-bottom: 5px;
+
 }
 
 .About-me .bio{
   width: 70%;
-
   margin-left: 2%;
   margin-right: 2%;
-margin-top: 2%;
-  background: rgb(20, 154, 180, 0.9);
+  margin-top: 30%;
   box-shadow: 15px 6px 5px rgb(0, 0, 0, 0.7);
   padding-top: 2%;
 }

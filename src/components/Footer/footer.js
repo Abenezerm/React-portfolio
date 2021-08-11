@@ -1,14 +1,17 @@
-
+import './style.css';
 import React from 'react';
-import linkedin from './linkedin.png';
-import github from './github.png';
+
 export function Footer() {
     return(
-      <div class="Contact-Me" id="Contact-Me">
+      <div class="footer" id="footer">
             <div class="links">
-              <a href="https://www.linkedin.com/in/abenezer-merdassa-055769202/"> <img width="100px" src={linkedin} alt="linkedin"/> </a>
-              <a href="https://github.com/Abenezerm"> <img width="100px" src={github} alt="linkednin"/> </a>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
       </div>
+
+
+
     );
 }
