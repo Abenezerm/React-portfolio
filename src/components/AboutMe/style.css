@@ -1,0 +1,36 @@
+.About-me{
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.About-me .section-Header{
+    width: 30%;
+}
+
+.About-me .section-Header .headshot{
+  border-radius: 100px;
+  box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.9);
+  margin-bottom: 5px;
+}
+
+.About-me .bio{
+  width: 70%;
+
+  margin-left: 2%;
+  margin-right: 2%;
+margin-top: 2%;
+  background: rgb(20, 154, 180, 0.9);
+  box-shadow: 15px 6px 5px rgb(0, 0, 0, 0.7);
+  padding-top: 2%;
+}
+
+.About-me .bio p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+   padding: 5% 5% 5% 5%;
+   font-size: 1.4rem;
+
+   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}

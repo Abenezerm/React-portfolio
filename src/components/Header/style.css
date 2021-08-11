@@ -1,0 +1,31 @@
+h1{
+  font-family: 'Sacramento', cursive;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.page-title h1{
+  font-size: 6rem;
+}
+.fixed-nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(24, 154, 180, 0.9);
+  box-shadow: 10px 10px 15px rgba(225, 225, 225, 0.9);
+}
+.fixed-nav a{
+  width: 33%;
+}
+.fixed-nav a:hover{
+  width: 35%;
+  background: rgb(24, 154, 180);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
